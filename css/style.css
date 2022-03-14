@@ -1,0 +1,84 @@
+/* open-sans-regular - latin */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v28-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/open-sans-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v28-latin-regular.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* open-sans-700 - latin */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v28-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/open-sans-v28-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v28-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v28-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v28-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v28-latin-700.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-position: center center;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+.wrapper {
+    padding: 30px;
+    background-color: rgba(248, 248, 255, 0.788);
+    border-radius: 30px;
+}
+
+.search__bt {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.icon {
+    height: 70px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__weather {
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.error {
+    text-align: center;
+}
